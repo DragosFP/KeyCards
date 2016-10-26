@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF892D251DC12CFE00382D21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF892D241DC12CFE00382D21 /* AppDelegate.swift */; };
+		DF892D271DC12CFE00382D21 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF892D261DC12CFE00382D21 /* ViewController.swift */; };
+		DF892D2A1DC12CFE00382D21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF892D281DC12CFE00382D21 /* Main.storyboard */; };
+		DF892D2D1DC12CFE00382D21 /* KeyCards.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DF892D2B1DC12CFE00382D21 /* KeyCards.xcdatamodeld */; };
+		DF892D2F1DC12CFE00382D21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF892D2E1DC12CFE00382D21 /* Assets.xcassets */; };
+		DF892D321DC12CFE00382D21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF892D301DC12CFE00382D21 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DF892D211DC12CFE00382D21 /* KeyCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF892D241DC12CFE00382D21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DF892D261DC12CFE00382D21 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DF892D291DC12CFE00382D21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF892D2C1DC12CFE00382D21 /* KeyCards.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KeyCards.xcdatamodel; sourceTree = "<group>"; };
+		DF892D2E1DC12CFE00382D21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF892D311DC12CFE00382D21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF892D331DC12CFE00382D21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF892D1E1DC12CFE00382D21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF892D181DC12CFE00382D21 = {
+			isa = PBXGroup;
+			children = (
+				DF892D231DC12CFE00382D21 /* KeyCards */,
+				DF892D221DC12CFE00382D21 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF892D221DC12CFE00382D21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF892D211DC12CFE00382D21 /* KeyCards.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF892D231DC12CFE00382D21 /* KeyCards */ = {
+			isa = PBXGroup;
+			children = (
+				DF892D241DC12CFE00382D21 /* AppDelegate.swift */,
+				DF892D261DC12CFE00382D21 /* ViewController.swift */,
+				DF892D281DC12CFE00382D21 /* Main.storyboard */,
+				DF892D2E1DC12CFE00382D21 /* Assets.xcassets */,
+				DF892D301DC12CFE00382D21 /* LaunchScreen.storyboard */,
+				DF892D331DC12CFE00382D21 /* Info.plist */,
+				DF892D2B1DC12CFE00382D21 /* KeyCards.xcdatamodeld */,
+			);
+			path = KeyCards;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF892D201DC12CFE00382D21 /* KeyCards */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF892D361DC12CFE00382D21 /* Build configuration list for PBXNativeTarget "KeyCards" */;
+			buildPhases = (
+				DF892D1D1DC12CFE00382D21 /* Sources */,
+				DF892D1E1DC12CFE00382D21 /* Frameworks */,
+				DF892D1F1DC12CFE00382D21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeyCards;
+			productName = KeyCards;
+			productReference = DF892D211DC12CFE00382D21 /* KeyCards.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF892D191DC12CFE00382D21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Dragos Florin";
+				TargetAttributes = {
+					DF892D201DC12CFE00382D21 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 45A92XCUK6;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DF892D1C1DC12CFE00382D21 /* Build configuration list for PBXProject "KeyCards" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF892D181DC12CFE00382D21;
+			productRefGroup = DF892D221DC12CFE00382D21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF892D201DC12CFE00382D21 /* KeyCards */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF892D1F1DC12CFE00382D21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF892D321DC12CFE00382D21 /* LaunchScreen.storyboard in Resources */,
+				DF892D2F1DC12CFE00382D21 /* Assets.xcassets in Resources */,
+				DF892D2A1DC12CFE00382D21 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF892D1D1DC12CFE00382D21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF892D271DC12CFE00382D21 /* ViewController.swift in Sources */,
+				DF892D251DC12CFE00382D21 /* AppDelegate.swift in Sources */,
+				DF892D2D1DC12CFE00382D21 /* KeyCards.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DF892D281DC12CFE00382D21 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF892D291DC12CFE00382D21 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF892D301DC12CFE00382D21 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF892D311DC12CFE00382D21 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF892D341DC12CFE00382D21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF892D351DC12CFE00382D21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF892D371DC12CFE00382D21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 45A92XCUK6;
+				INFOPLIST_FILE = KeyCards/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "PDF-Solutions.KeyCards";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DF892D381DC12CFE00382D21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 45A92XCUK6;
+				INFOPLIST_FILE = KeyCards/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "PDF-Solutions.KeyCards";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF892D1C1DC12CFE00382D21 /* Build configuration list for PBXProject "KeyCards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF892D341DC12CFE00382D21 /* Debug */,
+				DF892D351DC12CFE00382D21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF892D361DC12CFE00382D21 /* Build configuration list for PBXNativeTarget "KeyCards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF892D371DC12CFE00382D21 /* Debug */,
+				DF892D381DC12CFE00382D21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DF892D2B1DC12CFE00382D21 /* KeyCards.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DF892D2C1DC12CFE00382D21 /* KeyCards.xcdatamodel */,
+			);
+			currentVersion = DF892D2C1DC12CFE00382D21 /* KeyCards.xcdatamodel */;
+			path = KeyCards.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DF892D191DC12CFE00382D21 /* Project object */;
+}

@@ -34,7 +34,7 @@
                     <navigationItem key="navigationItem" id="nQh-Ky-ddz">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="KyM-Bd-Bef">
                             <connections>
-                                <segue destination="FyT-H2-Srq" kind="show" id="D5O-N6-j6f"/>
+                                <segue destination="FyT-H2-Srq" kind="show" identifier="cardSegue" id="D5O-N6-j6f"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -75,6 +75,12 @@
                                     <action selector="SalveazaApasat:" destination="FyT-H2-Srq" eventType="touchUpInside" id="bVF-HW-vd6"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nzf-wZ-cYJ">
+                                <state key="normal" title="Sterge"/>
+                                <connections>
+                                    <action selector="SalveazaApasat:" destination="FyT-H2-Srq" eventType="touchUpInside" id="uQA-JJ-uHS"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -83,6 +89,8 @@
                             <constraint firstItem="GGl-7H-XIS" firstAttribute="width" secondItem="tii-xe-fVr" secondAttribute="width" id="HeC-mD-APJ"/>
                             <constraint firstItem="c2w-pN-LtL" firstAttribute="centerX" secondItem="NW6-s8-arn" secondAttribute="centerX" id="NQe-AK-riO"/>
                             <constraint firstItem="c2w-pN-LtL" firstAttribute="centerX" secondItem="NW6-s8-arn" secondAttribute="centerX" id="Qe9-ha-Edf"/>
+                            <constraint firstItem="nzf-wZ-cYJ" firstAttribute="top" secondItem="c2w-pN-LtL" secondAttribute="bottom" constant="8" id="QlI-OE-kDC"/>
+                            <constraint firstItem="nzf-wZ-cYJ" firstAttribute="centerX" secondItem="NW6-s8-arn" secondAttribute="centerX" id="SBK-68-bsS"/>
                             <constraint firstItem="c2w-pN-LtL" firstAttribute="top" secondItem="GGl-7H-XIS" secondAttribute="bottom" constant="20" id="Tnp-6H-xvC"/>
                             <constraint firstItem="GGl-7H-XIS" firstAttribute="centerX" secondItem="NW6-s8-arn" secondAttribute="centerX" id="bzD-CN-Ixe"/>
                             <constraint firstItem="tii-xe-fVr" firstAttribute="top" secondItem="PG8-55-gVR" secondAttribute="bottom" constant="20" id="tQw-CA-CVH"/>
@@ -107,6 +115,8 @@
                     <connections>
                         <outlet property="CampTextCard" destination="GGl-7H-XIS" id="FiI-Em-fmf"/>
                         <outlet property="ImagineCard" destination="tii-xe-fVr" id="Pd5-W0-mDm"/>
+                        <outlet property="butonSterge" destination="nzf-wZ-cYJ" id="MR2-QH-M4T"/>
+                        <outlet property="saveModificaButon" destination="c2w-pN-LtL" id="gY0-KA-oNE"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="g5n-EG-NXJ" userLabel="First Responder" sceneMemberID="firstResponder"/>

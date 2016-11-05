@@ -10,16 +10,29 @@ import UIKit
 
 class CardViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     
+    @IBOutlet weak var butonSterge: UIButton!
+    
+    @IBOutlet weak var saveModificaButon: UIButton!
+    
     @IBOutlet weak var CampTextCard: UITextField!
     
     @IBOutlet weak var ImagineCard: UIImageView!
     
     var prindeImagine = UIImagePickerController ()
+    var card : Card? = nil
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         prindeImagine.delegate = self
+        if card != nil {
+            ImagineCard.image  = UIImage(data: card!.imagineCard as! Data)
+            CampTextCard.text = card!.numeCard
+            saveModificaButon.setTitle("Modifica", for: .normal)
+              
+        } else {
+            butonSterge.isHidden = true
+        }
     }
 
     @IBAction func PozeApasat(_ sender: AnyObject) {

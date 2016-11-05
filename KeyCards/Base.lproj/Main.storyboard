@@ -79,6 +79,7 @@
                                 <state key="normal" title="Sterge"/>
                                 <connections>
                                     <action selector="SalveazaApasat:" destination="FyT-H2-Srq" eventType="touchUpInside" id="uQA-JJ-uHS"/>
+                                    <action selector="butonSterge:" destination="FyT-H2-Srq" eventType="touchUpInside" id="1xB-Ug-Yql"/>
                                 </connections>
                             </button>
                         </subviews>

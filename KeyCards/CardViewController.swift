@@ -53,12 +53,16 @@ class CardViewController: UIViewController, UIImagePickerControllerDelegate, UIN
     
     @IBAction func SalveazaApasat(_ sender: AnyObject) {
         
-        let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
-        
-        let card = Card(context: context)
-        card.numeCard = CampTextCard.text
-        card.imagineCard = UIImagePNGRepresentation(ImagineCard.image!) as NSData?
-        
+        if card != nil {
+            card!.numeCard = CampTextCard.text
+            card!.imagineCard = UIImagePNGRepresentation(ImagineCard.image!) as NSData?
+        } else {
+            let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+            
+            let card = Card(context: context)
+            card.numeCard = CampTextCard.text
+            card.imagineCard = UIImagePNGRepresentation(ImagineCard.image!) as NSData?
+        }
         (UIApplication.shared.delegate as! AppDelegate).saveContext()
         navigationController!.popViewController(animated: true)
     }
@@ -68,4 +72,10 @@ class CardViewController: UIViewController, UIImagePickerControllerDelegate, UIN
         
     }
 
+    @IBAction func butonSterge(_ sender: AnyObject) {
+        let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+        context.delete(card!)
+        (UIApplication.shared.delegate as! AppDelegate).saveContext()
+        navigationController!.popViewController(animated: true)
+    }
 }

@@ -13,6 +13,8 @@
 		DF892D2D1DC12CFE00382D21 /* KeyCards.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DF892D2B1DC12CFE00382D21 /* KeyCards.xcdatamodeld */; };
 		DF892D2F1DC12CFE00382D21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF892D2E1DC12CFE00382D21 /* Assets.xcassets */; };
 		DF892D321DC12CFE00382D21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF892D301DC12CFE00382D21 /* LaunchScreen.storyboard */; };
+		DFFD57F01DC76BFD00DA9A1C /* SubstandardFullSizeRender.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DFFD57EF1DC76BFD00DA9A1C /* SubstandardFullSizeRender.jpg */; };
+		DFFD57F21DC76CA700DA9A1C /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFD57F11DC76CA700DA9A1C /* CardViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		DF892D2E1DC12CFE00382D21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF892D311DC12CFE00382D21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DF892D331DC12CFE00382D21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFFD57EF1DC76BFD00DA9A1C /* SubstandardFullSizeRender.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SubstandardFullSizeRender.jpg; sourceTree = "<group>"; };
+		DFFD57F11DC76CA700DA9A1C /* CardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			children = (
 				DF892D241DC12CFE00382D21 /* AppDelegate.swift */,
 				DF892D261DC12CFE00382D21 /* ViewController.swift */,
+				DFFD57F11DC76CA700DA9A1C /* CardViewController.swift */,
+				DFFD57EF1DC76BFD00DA9A1C /* SubstandardFullSizeRender.jpg */,
 				DF892D281DC12CFE00382D21 /* Main.storyboard */,
 				DF892D2E1DC12CFE00382D21 /* Assets.xcassets */,
 				DF892D301DC12CFE00382D21 /* LaunchScreen.storyboard */,
@@ -128,6 +134,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF892D321DC12CFE00382D21 /* LaunchScreen.storyboard in Resources */,
+				DFFD57F01DC76BFD00DA9A1C /* SubstandardFullSizeRender.jpg in Resources */,
 				DF892D2F1DC12CFE00382D21 /* Assets.xcassets in Resources */,
 				DF892D2A1DC12CFE00382D21 /* Main.storyboard in Resources */,
 			);
@@ -140,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFFD57F21DC76CA700DA9A1C /* CardViewController.swift in Sources */,
 				DF892D271DC12CFE00382D21 /* ViewController.swift in Sources */,
 				DF892D251DC12CFE00382D21 /* AppDelegate.swift in Sources */,
 				DF892D2D1DC12CFE00382D21 /* KeyCards.xcdatamodeld in Sources */,
@@ -306,6 +314,7 @@
 				DF892D381DC12CFE00382D21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
